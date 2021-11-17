@@ -9,7 +9,7 @@ import os
 os.getcwd()
 st.set_page_config(layout='wide')
 
-file ="Results.xlsx"
+file = "data/Results.xlsx"
 data = pd.ExcelFile(file)
 sheet_names=(data.sheet_names)
 # adding the sub header
